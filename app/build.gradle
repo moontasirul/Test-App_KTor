@@ -70,4 +70,9 @@ dependencies {
     implementation "io.ktor:ktor-client-logging-jvm:1.5.0"
     implementation "io.coil-kt:coil:2.2.2"
 
+
+    def moshiVersion = '1.14.0'
+    implementation "com.squareup.moshi:moshi:$moshiVersion"
+    kapt "com.squareup.moshi:moshi-kotlin-codegen:$moshiVersion"
+
 }

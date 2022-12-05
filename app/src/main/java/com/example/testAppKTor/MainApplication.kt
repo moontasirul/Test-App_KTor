@@ -1,6 +1,7 @@
 package com.example.testAppKTor
 
 import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
 
-class MainApplication : Application() {
-}
+@HiltAndroidApp
+class MainApplication : Application()

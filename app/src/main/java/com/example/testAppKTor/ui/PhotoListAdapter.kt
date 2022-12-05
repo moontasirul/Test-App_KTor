@@ -1,9 +1,10 @@
-package com.example.testAppKTor
+package com.example.testAppKTor.ui
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.testAppKTor.R
 
 class PhotoListAdapter : RecyclerView.Adapter<PhotoListAdapter.PhotoViewHolder>() {
 
